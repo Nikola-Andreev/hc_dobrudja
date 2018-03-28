@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#main-menu {
+  width: 70%;
+  margin-left: 10%;
+}
+
+#main-menu > li {
+  text-transform: uppercase;
+  padding: 0 25px 0 0;
+}
+
+
+#main-menu, #main-menu > li {
+  display: inline-block;
+}
+
+#main-menu > li > a {
+  color: #008349;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+#main-menu > li > a:hover {
+  color: #E5F646;
+}
+
+#navigation {
+  border-bottom: 1px solid #008349;
+}
+
+.header {
+  width: 80%;
+  float: right;
+  margin-top: 2%;
+}
+
+.logo > a > img {
+  margin-top: 0.5%;
+  margin-left: 1%;
+}

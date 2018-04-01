@@ -1,11 +1,13 @@
 import React, {Component} from 'react'
 import GoogleMap from './Maps'
-import '../css/contacts.css'
+import '../../css/contacts.css'
+import Navigation from '../common/Navigation'
 
 export default class Contacts extends Component {
     render() {
         return (
             <div>
+                <Navigation/>
                 <div>
                     <span className='hallAddress'>
                         <h3>Contact address</h3>

@@ -5,9 +5,9 @@ body {
 }
 
 #main-menu {
-  width: 54%;
+  width: 55%;
   height: 120px;
-  margin-left: 15%;
+  margin-left: 13%;
 }
 
 #main-menu > li {
@@ -17,14 +17,14 @@ body {
 }
 
 
-#main-menu, #main-menu > li {
+#main-menu, #main-menu > li, .translate > li, .social > li {
   display: inline-block;
 }
 
 #main-menu > li > a {
   color: #008349;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 #main-menu > li > a:hover {
@@ -48,4 +48,20 @@ body {
 .logoMunicipality {
   margin-top: 0.5%;
   float: right;
+}
+
+.translate{
+    margin-left: 5%;
+}
+
+.social > li {
+    margin-left: 3%;
+}
+
+.translate {
+    border-bottom: 2px solid #008349;
+}
+
+.social {
+    border-bottom: 2px solid #E5F646;
 }

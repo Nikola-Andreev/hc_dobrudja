@@ -1,0 +1,26 @@
+.ranking {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 5%;
+    border: 1px solid;
+}
+
+.ranking tr {
+    text-align: center;
+    line-height: 50px;
+}
+
+.ranking > thead > tr {
+    background-color: #008349;
+    color: white;
+}
+
+.ranking img {
+    float: left;
+    margin-left: 5%;
+    margin-top: 1.5%;
+}
+
+#dobrudja {
+    background-color: #E5F646;;
+}
